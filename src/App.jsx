@@ -242,7 +242,7 @@ export default function App() {
                     />
                 </div>
             </section>
-            <footer className="px-22 bg-bg-dark pt-12 pb-8 border-t-primary border-t-8">
+            <footer className="px-22 bg-black/95 pt-12 pb-8 border-t-primary border-t-8">
                 <div className="pb-10 flex items-start justify-between">
                     <div className="w-1/4">
                         <div className="flex gap-4 mb-5">
