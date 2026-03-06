@@ -103,10 +103,10 @@ export default function App() {
                 </div>
                 <nav>
                     <ul className="flex gap-14 font-black cursor-pointer">
-                        <li>inicio</li>
-                        <li>menú</li>
-                        <li>ubicación</li>
-                        <li>contacto</li>
+                        <li className="hover:text-primary">inicio</li>
+                        <li className="hover:text-primary">menú</li>
+                        <li className="hover:text-primary">ubicación</li>
+                        <li className="hover:text-primary">contacto</li>
                     </ul>
                 </nav>
                 <button className="bg-primary font-black uppercase py-2 px-5 cursor-pointer [border:var(--border-retro)] shadow-retro rounded-4xl hover:translate-y-1 hover:shadow-none transition-all">
@@ -283,10 +283,10 @@ export default function App() {
                         <h2 className="text-primary uppercase italic font-black mb-5">
                             navegación
                         </h2>
-                        <ul className="uppercase text-bg-light/90 flex flex-col gap-2.5">
-                            <li>inicio</li>
-                            <li>menú</li>
-                            <li>ubicación</li>
+                        <ul className="uppercase text-bg-light/90 flex flex-col gap-2.5 cursor-pointer">
+                            <li className="hover:text-primary">inicio</li>
+                            <li className="hover:text-primary">menú</li>
+                            <li className="hover:text-primary">ubicación</li>
                         </ul>
                     </div>
                     <div>
@@ -294,7 +294,7 @@ export default function App() {
                             síguenos
                         </h2>
                         <div className="flex gap-3">
-                            <span className="bg-black/35 w-10 h-10 rounded-4xl flex items-center justify-center">
+                            <span className="bg-black/35 w-10 h-10 rounded-4xl flex items-center justify-center cursor-pointer hover:bg-primary">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="24"
@@ -319,7 +319,7 @@ export default function App() {
                                     <path d="M8.7 13.3l6.6 3.4" />
                                 </svg>
                             </span>
-                            <span className="bg-black/35 w-10 h-10 rounded-4xl flex items-center justify-center">
+                            <span className="bg-black/35 w-10 h-10 rounded-4xl flex items-center justify-center cursor-pointer hover:bg-primary">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="24"
@@ -340,7 +340,7 @@ export default function App() {
                                     <path d="M7 11v8a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-7a1 1 0 0 1 1 -1h3a4 4 0 0 0 4 -4v-1a2 2 0 0 1 4 0v5h3a2 2 0 0 1 2 2l-1 5a2 3 0 0 1 -2 2h-7a3 3 0 0 1 -3 -3" />
                                 </svg>
                             </span>
-                            <span className="bg-black/35 w-10 h-10 rounded-4xl flex items-center justify-center">
+                            <span className="bg-black/35 w-10 h-10 rounded-4xl flex items-center justify-center cursor-pointer hover:bg-primary">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="24"

@@ -54,7 +54,7 @@ export function CardCombos({ tipo, valor, precio, cantidad, size }) {
                     <p>{size}</p>
                 </div>
             </div>
-            <button className="border-4 rounded-4xl uppercase cursor-pointer font-black text-xs w-full py-3">
+            <button className="border-4 rounded-4xl uppercase cursor-pointer font-black text-xs w-full py-3 group-hover:bg-bg-light hover:bg-primary">
                 select
             </button>
         </div>
