@@ -141,7 +141,7 @@ export default function App() {
                 <h2 className="text-3xl font-black uppercase text-shadow-(--shadow-text)">
                     lo mejor de nuestro menú
                 </h2>
-                <div className="py-12 flex flex-wrap gap-10">
+                <div className="py-12 flex flex-wrap gap-10 justify-center">
                     {menu.map(({ titulo, imagen, info, precio, art }) => {
                         return (
                             <Card
@@ -160,7 +160,7 @@ export default function App() {
                 <h2 className="text-3xl font-black uppercase text-shadow-(--shadow-text)">
                     combos de soda y helado
                 </h2>
-                <div className="py-12 flex gap-10">
+                <div className="py-12 flex gap-10 justify-center">
                     {combos.map(
                         ({ id, tipo, valor, cantidad, precio, size }) => {
                             return (
