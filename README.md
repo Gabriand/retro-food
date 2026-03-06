@@ -1,16 +1,58 @@
-# React + Vite
+# 🍕 Retro Food
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido a **Retro Food**! Este es un proyecto de práctica en desarrollo (basado en un temario retro de restaurante/diner).
 
-Currently, two official plugins are available:
+## 🎯 Propósito del Proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este repositorio es mi "patio de juegos" personal mientras aprendo **React** (haciendo la transición desde otras tecnologías como Flutter). El objetivo no es tener un producto final de inmediato, sino ir construyendo y mejorando este proyecto paso a paso, aplicando los nuevos conceptos de React conforme los voy estudiando.
 
-## React Compiler
+Cosas que ya estoy practicando en este proyecto:
+- [x] Creación de Componentes Funcionales.
+- [x] Sintaxis JSX.
+- [x] Paso de datos mediante `props`.
+- [x] Renderizado dinámico de listas usando `.map()`.
+- [x] Manejo de estados básicos con el hook `useState`.
+- [x] Implementación y personalización de estilos con **Tailwind CSS v4** (hover de grupos, variables CSS, clases condicionales dinámicas).
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+A futuro se irán añadiendo más conceptos avanzados como:
+- Enrutamiento entre páginas (React Router).
+- Manejo de efectos secundarios (`useEffect`).
+- Componentes más complejos y reutilización usando la prop `children`.
+- Conexión a bases de datos o APIs simuladas.
 
-## Expanding the ESLint configuration
+## 🎨 Diseño UI/UX
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+El diseño visual de esta aplicación fue creado inicialmente utilizando la herramienta **Stitch de Google**. Puedes visualizar el prototipo y la idea original de la interfaz haciendo clic en el siguiente enlace:
+
+👉 [Ver diseño en Google Stitch](https://stitch.withgoogle.com/projects/14515865178827955514)
+
+## 🛠️ Tecnologías Utilizadas
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/) - Entorno de desarrollo rápido.
+- [Tailwind CSS](https://tailwindcss.com/) - Para un estilizado rápido, moderno y responsive de la temática retro de este restaurante.
+
+## 🚀 Cómo probar el proyecto localmente
+
+Si quieres descargar y ejecutar este proyecto en tu propia máquina, sigue estos pasos:
+
+1. Clona el repositorio (asegúrate de tener Git instalado):
+   ```bash
+   git clone <tu-url-del-repositorio>
+   ```
+2. Entra a la carpeta del proyecto:
+   ```bash
+   cd retro-food
+   ```
+3. Instala todas las dependencias necesarias:
+   ```bash
+   npm install
+   ```
+4. Inicia el servidor local de desarrollo:
+   ```bash
+   npm run dev
+   ```
+5. Abre el enlace que te aparecerá en la terminal (por lo general `http://localhost:5173/`).
+
+---
+✨ *Nota: Este proyecto irá evolucionando y mejorando con el tiempo, ¡las documentaciones también podrían actualizarse a medida que crezca!*
