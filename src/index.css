@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+    /* Colores personalizados */
+    --color-primary: #f4c32f; /*Amarillo*/
+    --color-bg-light: #f8f8f5;
+    --color-bg-dark: #221e10;
+
+    /* Fuentes (asegurate de tener el link de Google Fonts en index.html) */
+    --font-display: "Be Vietnam Pro", sans-serif;
+
+    /* Sombras y bordes personalizados */
+    --border-retro: 4px solid #181611; /*Negro*/
+    --shadow-retro: 6px 6px 0px #181611;
+    --shadow-text: 2px 2px 0px #f4c32f; /*Amarillo*/
+}
+
+/* Estilos base opcionales */
+@layer base {
+    body {
+        @apply bg-bg-light font-display text-bg-dark;
+    }
+}
